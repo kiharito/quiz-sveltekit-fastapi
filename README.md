@@ -17,6 +17,28 @@ npm install
 npm run dev -- --open
 ```
 
+### Backend
+
+```shell
+cd backend/
+```
+```shell
+python --version # => 3.12.2
+```
+```shell
+python -m venv .venv
+```
+```shell
+source .venv/bin/activate
+```
+```shell
+pip install -r requirements.txt
+```
+```shell
+uvicorn app.main:app --reload
+```
+[http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs)にアクセスする。
+
 ### DB
 
 ```shell
